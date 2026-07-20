@@ -13,3 +13,5 @@ figures/*
 
 # DATA IS INCLUDED:
 # (Since data/* is not listed here, Git will automatically track all files in data/)
+
+scripts/notebooks/ert_dat_to_gimli.ipynb
