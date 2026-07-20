@@ -15,3 +15,6 @@ figures/*
 # (Since data/* is not listed here, Git will automatically track all files in data/)
 
 scripts/notebooks/ert_dat_to_gimli.ipynb
+
+# Data
+dat/geophysics/raw/profile_coordinates_topo/raw
