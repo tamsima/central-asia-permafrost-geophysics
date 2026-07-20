@@ -1,0 +1,15 @@
+# Python temporary files & virtual envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+
+# IGNORE FIGURES: Do not track output images/plots
+figures/*
+!figures/.gitkeep
+
+# DATA IS INCLUDED:
+# (Since data/* is not listed here, Git will automatically track all files in data/)
