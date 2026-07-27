@@ -17,7 +17,7 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 
 * **`001_raw/`**: Raw seismic data recorded using a 24-geophone Geode system, including `.tom` files with first-arrival picks processed in **ReflexW**.
 * **`002_udf/`**: Unified Data Format (`*_tt.txt`) traveltime files formatted for `pyGIMLi` inversion.
-* **`004_topo/`**: Topography data files (`*_topo.txt`) required for elevation correction during inversion and plotting in `pyGIMLi`.
+* **`004_topo/`**: Topography data files (`*_topo.txt`) required for inversion and plotting in `pyGIMLi`.
 
 ###  Petrophysical Joint Inversion (PJI) Data
 
