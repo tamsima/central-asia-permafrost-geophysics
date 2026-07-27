@@ -8,10 +8,16 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 
 ## 📁 Data Structure & Formats
 
-`data/geophysics/raw/001_ERT` contains ERT data in different formats:
+### Electrical Resistivity Tomography (`data/geophysics/raw/001_ERT/`)
 
-* **`002_dat/`**: Contains raw `.dat` binary/text files exported directly from **Iris Instruments ProSys II** (collected using a Syscal Pro resistivity meter).
-* **`003_udf/`**: Contains unified data format (`*_rhoa.txt`) files required for inversion with `pyGIMLi`. Specifications for this format can be found at [resistivity.net/bert/data_format.html](http://resistivity.net/bert/data_format.html).
+* **`002_dat/`**: Raw `.dat` binary/text files exported directly from **Iris Instruments ProSys II** (collected using a Syscal Pro resistivity meter).
+* **`003_udf/`**: Unified Data Format (`*_rhoa.txt`) files required for inversion with `pyGIMLi`. Specifications for this format can be found at [resistivity.net/bert/data_format.html](http://resistivity.net/bert/data_format.html).
+
+### Refraction Seismic Tomography (`data/geophysics/raw/002_RST/`)
+
+* **`001_raw/`**: Raw seismic data recorded using a 24-geophone Geode system, including `.tom` files with first-arrival picks processed in **ReflexW**.
+* **`002_udf/`**: Unified Data Format (`*_tt.txt`) traveltime files formatted for `pyGIMLi` inversion.
+* **`004_topo/`**: Topography data files (`*_topo.txt`) required for elevation correction during inversion and plotting in `pyGIMLi`.
 
 ###  Petrophysical Joint Inversion (PJI) Data
 
