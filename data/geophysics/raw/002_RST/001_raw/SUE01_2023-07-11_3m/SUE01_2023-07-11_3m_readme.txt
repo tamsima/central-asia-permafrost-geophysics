@@ -1,0 +1,4 @@
+3 m spacing
+G1 =E13
+offset 10 m
+1058.5 bad

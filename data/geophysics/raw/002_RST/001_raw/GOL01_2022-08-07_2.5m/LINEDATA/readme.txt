@@ -1,0 +1,1 @@
+Inversion works without problems if only shotpoints 1-6 are considered

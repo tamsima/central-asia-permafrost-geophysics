@@ -1,0 +1,11 @@
+Report for digital converion on file C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\BUL01_2023\IMPORT.REP                                                      
+                                                                                                                                                                
+1.conversion:                                                                                                                                                   
+  inputfile: C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\BUL01_2023\ASCII\996.dat                                                                           
+  outputfile: C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\BUL01_2023\ROHDATA\996_____.DAT                                                                   
+  rec.start:   1000.000 / rec.end:   1046.000                                                                                                                   
+  rec. lat.offset:      0.000                                                                                                                                   
+  shot pos.:    996.000 / shot lat.offset:      0.000                                                                                                           
+  traces: 24 -  traceincrement:     2.0000                                                                                                                      
+  samples: 800 -  timeincrement:     0.1250                                                                                                                     
+                                                                                                                                                                

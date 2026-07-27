@@ -1,0 +1,11 @@
+Report for digital converion on file C:\KUM01_2022-08-17_3m\IMPORT.REP                                                                                          
+                                                                                                                                                                
+1.conversion:                                                                                                                                                   
+  inputfile: C:\KUM01_2022-08-17_3m\ASCII\10405.dat                                                                                                             
+  outputfile: C:\KUM01_2022-08-17_3m\ROHDATA\10405___.DAT                                                                                                       
+  rec.start:   1000.000 / rec.end:   1069.000                                                                                                                   
+  rec. lat.offset:      0.000                                                                                                                                   
+  shot pos.:   1040.500 / shot lat.offset:      0.000                                                                                                           
+  traces: 24 -  traceincrement:     3.0000                                                                                                                      
+  samples: 800 -  timeincrement:     0.1250                                                                                                                     
+                                                                                                                                                                

@@ -1,0 +1,11 @@
+Report for digital converion on file C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\SUE01_2023-07-11_3m\IMPORT.REP                                             
+                                                                                                                                                                
+1.conversion:                                                                                                                                                   
+  inputfile: C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\SUE01_2023-07-11_3m\ASCII\1079.dat                                                                 
+  outputfile: C:\Users\mathyst\Mirror\fieldwork_2023\data\RST\SUE01_2023-07-11_3m\ROHDATA\1079____.DAT                                                          
+  rec.start:   1000.000 / rec.end:   1069.000                                                                                                                   
+  rec. lat.offset:      0.000                                                                                                                                   
+  shot pos.:   1079.000 / shot lat.offset:      0.000                                                                                                           
+  traces: 24 -  traceincrement:     3.0000                                                                                                                      
+  samples: 640 -  timeincrement:     0.0625                                                                                                                     
+                                                                                                                                                                

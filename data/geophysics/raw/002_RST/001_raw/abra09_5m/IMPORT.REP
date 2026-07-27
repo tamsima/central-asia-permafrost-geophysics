@@ -1,0 +1,11 @@
+Report for digital converion on file C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\abra\RST\abra09_5m\IMPORT.REP                                               
+                                                                                                                                                                
+1.conversion:                                                                                                                                                   
+  inputfile: C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\abra\RST\abra09_5m\ASCII\1022.dat                                                                   
+  outputfile: C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\abra\RST\abra09_5m\ROHDATA\1022____.DAT                                                            
+  rec.start:   1000.000 / rec.end:   1115.000                                                                                                                   
+  rec. lat.offset:      0.000                                                                                                                                   
+  shot pos.:   1017.500 / shot lat.offset:      0.000                                                                                                           
+  traces: 24 -  traceincrement:     5.0000                                                                                                                      
+  samples: 720 -  timeincrement:     0.1250                                                                                                                     
+                                                                                                                                                                

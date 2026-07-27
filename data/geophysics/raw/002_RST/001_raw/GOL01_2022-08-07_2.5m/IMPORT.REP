@@ -1,0 +1,11 @@
+Report for digital converion on file C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\Golu\RST\GOL01_2022-08-07_2.5m\IMPORT.REP                                   
+                                                                                                                                                                
+1.conversion:                                                                                                                                                   
+  inputfile: C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\Golu\RST\GOL01_2022-08-07_2.5m\ASCII\1041.25.dat                                                    
+  outputfile: C:\Users\mathyst\Mirror\fieldwork_2022\data\KG\Golu\RST\GOL01_2022-08-07_2.5m\ROHDATA\1041____.DAT                                                
+  rec.start:   1000.000 / rec.end:   1057.500                                                                                                                   
+  rec. lat.offset:      0.000                                                                                                                                   
+  shot pos.:   1041.250 / shot lat.offset:      0.000                                                                                                           
+  traces: 24 -  traceincrement:     2.5000                                                                                                                      
+  samples: 640 -  timeincrement:     0.1250                                                                                                                     
+                                                                                                                                                                
