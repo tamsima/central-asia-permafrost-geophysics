@@ -7,13 +7,11 @@ venv/
 # IDE settings
 .vscode/
 
-# IGNORE FIGURES: Do not track output images/plots
+# Figures
 figures/*
 !figures/.gitkeep
 
-# DATA IS INCLUDED:
-# (Since data/* is not listed here, Git will automatically track all files in data/)
-
+# Scripts for data prepping
 scripts/notebooks/ert_dat_to_gimli.ipynb
 scripts/notebooks/unify_topo_csv_files.ipynb
 scripts/01_add_dates.py
@@ -22,6 +20,6 @@ scripts/03_sync_txt_filenames.py
 scripts/04_ert_dat_to_gimli_kz.py
 
 
-# Data
+# Data not needed
 data/geophysics/raw/profile_coordinates_topo/raw
 *_res_conventional.dat
