@@ -1,6 +1,6 @@
 # Geophysical and (Shallow) Ground Temperature Data Repository for Central Asian Mountain Permafrost
 
-This repository hosts open-access Electrical Resistivity Tomography (ERT), Refraction Seismic Tomography (RST), Petrophysical Joint Inversion (PJI) models, and (shallow) ground temperature datasets collected between 2021 and 2025 across key mountain permafrost sites in the Tien Shan and Pamir ranges of Kyrgyzstan and Tajikistan. These integrated datasets support quantitative characterization of subsurface ice heterogeneity and thermal regimes across different high-altitude landforms in data-scarce environments.
+This repository hosts open-access Electrical Resistivity Tomography (ERT), Refraction Seismic Tomography (RST), Petrophysical Joint Inversion (PJI) models, and (shallow) ground temperature datasets collected between 2021 and 2025 across key mountain permafrost sites in the Tien Shan and Pamir ranges of Kyrgyzstan and Tajikistan. These integrated datasets support quantitative characterization of subsurface ice contents (and thermal regimes) across different high-altitude landforms in data-scarce environments.
 
 This dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
 
@@ -46,3 +46,9 @@ Examples demonstrating the inversion workflows are provided in the following not
 
 * **RST Inversion:** `scripts/notebooks/plot_RST_inversion.ipynb`  
   Loads and inverts the Refraction Seismic Tomography traveltime data in `data/geophysics/raw/002_RST/002_udf` using topography from `004_topo`.
+
+  ## 🗺️ Interactive Study Site Map
+
+An interactive map featuring high-resolution satellite imagery, terrain layers, profile spatial coordinates, and electrode/geophone placements across Kyrgyzstan and Tajikistan is available here:
+
+👉 **[Explore the Interactive Field Map](https://tamsima.github.io/central-asia-permafrost-geophysics/)**
