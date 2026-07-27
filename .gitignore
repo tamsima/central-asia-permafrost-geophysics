@@ -24,3 +24,4 @@ scripts/06_reformat_rst_topo_filenames.py
 # Data not needed
 data/geophysics/raw/profile_coordinates_topo/raw
 *_res_conventional.dat
+invalid.data
