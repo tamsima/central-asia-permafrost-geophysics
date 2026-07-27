@@ -24,4 +24,4 @@ scripts/04_ert_dat_to_gimli_kz.py
 
 # Data
 data/geophysics/raw/profile_coordinates_topo/raw
-
+*_res_conventional.dat

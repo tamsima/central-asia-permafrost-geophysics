@@ -13,14 +13,25 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 * **`002_dat/`**: Contains raw `.dat` binary/text files exported directly from **Iris Instruments ProSys II** (collected using a Syscal Pro resistivity meter).
 * **`003_udf/`**: Contains unified data format (`*_rhoa.txt`) files required for inversion with `pyGIMLi`. Specifications for this format can be found at [resistivity.net/bert/data_format.html](http://resistivity.net/bert/data_format.html).
 
+###  Petrophysical Joint Inversion (PJI) Data
+
+`data/geophysics/processed/PJI` contains the processed input and setup files required for running Petrophysical Joint Inversion (PJI) modeling as presented in [Mathys et al. (2025)](https://tc.copernicus.org/articles/19/6591/2025/):
+
+* **`mesh/`**: Inversion meshes used.
+* **`NPZ_files/`**: Compressed NumPy array files containing extracted Apparent Resistivity and Apparent Seismic Velocity data.
+* **`rst_processes/`**: RST coverage data.
+* **`settings_files/`**: Parameter configuration and petrophysical input settings for the PJI framework.
+* **`zoi_coordinates/`**: Zone of Interest (ZOI) coordinates for the extraction of mean ground ice contents in a defined zone of each profile.
+
 ---
 
 ## 🚀 Usage
 
-An example demonstrating how to load and invert the ERT data in `003_udf` using `pyGIMLi` is provided in:
+To load and invert the ERT data in `003_udf` using `pyGIMLi`, ensure you have the `pyGIMLi` library installed. For setup instructions, refer to the [pyGIMLi Installation Guide](https://www.pygimli.org/user-guide/getting-started/installation/#installation).
+
+An example demonstrating the inversion workflow is provided in:
 
 `scripts/notebooks/plot_ERT_inversion.ipynb`
-
 
 
 
