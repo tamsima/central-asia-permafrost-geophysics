@@ -21,6 +21,7 @@ scripts/02_reformat_filenames.py
 scripts/03_sync_txt_filenames.py
 scripts/04_ert_dat_to_gimli_kz.py
 
+
 # Data
 data/geophysics/raw/profile_coordinates_topo/raw
 
