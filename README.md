@@ -27,8 +27,6 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 
 ## 🚀 Usage
 
-## 🚀 Usage
-
 To run the inversion workflows, ensure you have `pyGIMLi` installed. For setup instructions, refer to the [pyGIMLi Installation Guide](https://www.pygimli.org/installation.html).
 
 Examples demonstrating the inversion workflows are provided in the following notebooks:
