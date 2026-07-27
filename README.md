@@ -47,8 +47,8 @@ Examples demonstrating the inversion workflows are provided in the following not
 * **RST Inversion:** `scripts/notebooks/plot_RST_inversion.ipynb`  
   Loads and inverts the Refraction Seismic Tomography traveltime data in `data/geophysics/raw/002_RST/002_udf` using topography from `004_topo`.
 
-  ## 🗺️ Interactive Study Site Map
+## 🗺️ Profile Map
 
-An interactive map featuring high-resolution satellite imagery, terrain layers, profile spatial coordinates, and electrode/geophone placements across Kyrgyzstan and Tajikistan is available here:
+The profile locations, including the individual electrode and geophone placements for each profile, can be visualized through the following link:
 
-👉 **[Explore the Interactive Field Map](https://tamsima.github.io/central-asia-permafrost-geophysics/)**
+👉 **[Explore the Study Site Map](https://tamsima.github.io/central-asia-permafrost-geophysics/)**
