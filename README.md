@@ -27,11 +27,19 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 
 ## 🚀 Usage
 
-To load and invert the ERT data in `003_udf` using `pyGIMLi`, ensure you have the `pyGIMLi` library installed. For setup instructions, refer to the [pyGIMLi Installation Guide](https://www.pygimli.org/user-guide/getting-started/installation/#installation).
+## 🚀 Usage
 
-An example demonstrating the inversion workflow is provided in:
+To run the inversion workflows, ensure you have `pyGIMLi` installed. For setup instructions, refer to the [pyGIMLi Installation Guide](https://www.pygimli.org/installation.html).
 
-`scripts/notebooks/plot_ERT_inversion.ipynb`
+Examples demonstrating the inversion workflows are provided in the following notebooks:
+
+* **ERT Inversion:** `scripts/notebooks/plot_ERT_inversion.ipynb`  
+  Loads and inverts the Electrical Resistivity Tomography data in `data/geophysics/raw/001_ERT/003_udf`.
+
+* **RST Inversion:** `scripts/notebooks/plot_RST_inversion.ipynb`  
+  Loads and inverts the Refraction Seismic Tomography traveltime data in `data/geophysics/raw/002_RST/002_udf` using topography from `004_topo`.
+
+
 
 
 
