@@ -1,6 +1,6 @@
 # Geophysical and (Shallow) Ground Temperature Data Repository for Central Asian Mountain Permafrost
 
-This repository hosts open-access Electrical Resistivity Tomography (ERT), Refraction Seismic Tomography (RST), Petrophysical Joint Inversion (PJI) models, and (shallow) ground temperature datasets collected between 2021 and 2025 across key mountain permafrost sites in the Tien Shan and Pamir ranges of Kyrgyzstan and Tajikistan. These integrated datasets support quantitative characterization of subsurface ice contents (and thermal regimes) across different high-altitude landforms in data-scarce environments.
+This repository hosts open-access Electrical Resistivity Tomography (ERT), Refraction Seismic Tomography (RST) data, Petrophysical Joint Inversion (PJI) inputs with the same data, and (shallow) ground temperature datasets collected between 2021 and 2025 across key mountain permafrost sites in the Tien Shan and Pamir ranges of Kyrgyzstan and Tajikistan. These datasets support quantitative characterization of subsurface ice contents across different high-altitude landforms in data-scarce environments.
 
 This dataset is licensed under a [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
 
@@ -17,7 +17,7 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 
 * **`001_raw/`**: Raw seismic data recorded using a 24-geophone Geode system, including `.tom` files with first-arrival picks processed in **ReflexW**.
 * **`002_udf/`**: Unified Data Format (`*_tt.txt`) traveltime files formatted for `pyGIMLi` inversion.
-* **`004_topo/`**: Topography data files (`*_topo.txt`) required for elevation correction during inversion and plotting in `pyGIMLi`.
+* **`004_topo/`**: Topography data files (`*_topo.txt`) required for inversion and plotting in `pyGIMLi`.
 
 ### (Shallow) Ground Temperature Data (`data/gst/`)
 
@@ -28,7 +28,7 @@ This dataset is licensed under a [Creative Commons Attribution 4.0 International
 Contains processed input and setup files required for running Petrophysical Joint Inversion (PJI) modeling as presented in [Mathys et al. (2025)](https://tc.copernicus.org/articles/19/6591/2025/):
 
 * **`mesh/`**: Inversion meshes used for modeling.
-* **`NPZ_files/`**: Compressed NumPy array files containing extracted Apparent Resistivity and Apparent Seismic Velocity data.
+* **`NPZ_files/`**: Compressed NumPy array files containing extracted Apparent Resistivity and Seismic p-wave velocity data.
 * **`rst_processes/`**: RST coverage data.
 * **`settings_files/`**: Parameter configuration and petrophysical input settings for the PJI framework.
 * **`zoi_coordinates/`**: Zone of Interest (ZOI) coordinates for the extraction of mean ground ice contents in a defined zone of each profile.
