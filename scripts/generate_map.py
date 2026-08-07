@@ -25,7 +25,6 @@ csv_path = (
     repo_root
     / "data"
     / "geophysics"
-    / "raw"
     / "profile_coordinates_topo"
     / "ALL_PROFILES_master.csv"
 )
